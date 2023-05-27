@@ -1,0 +1,40 @@
+@media screen and (max-width:860px) {
+    .header__nav{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .photo img{
+        max-width: 800px;
+    }
+    .mainnews__wrap{
+        flex-direction: column;
+    }
+    .footer__nav{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+@media screen and (max-width:710px){
+    .nav__list{
+        gap: 7px;
+    }
+    .cards__wrap{
+        flex-direction: column;
+    }
+    #card2color{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #card4color{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width:640px){
+    .list__item a{
+        font-size: 14px;
+    }
+    .list__item2 a{
+        font-size: 14px;
+    }
+}
